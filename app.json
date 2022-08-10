@@ -1,11 +1,16 @@
 {
   "expo": {
-    "name": "taomtop",
-    "slug": "taomtop",
+    "name": "TaomTop",
+    "icon": "./icon.png",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  },
-  "name": "taomtop"
+    "slug": "taomtop",
+    "ios": {
+      "bundleIdentifier": "com.briko.taomtop",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.briko.taomtop",
+      "versionCode": 1
+    }
+  }
 }
