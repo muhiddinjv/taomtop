@@ -1,14 +1,14 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-function HomeScreen() {
+function PlaceOrderScreen() {
   return (
     <View>
         <Text>
-            HomeScreen
+            PlaceOrderScreen
         </Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default PlaceOrderScreen

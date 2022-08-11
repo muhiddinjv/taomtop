@@ -1,14 +1,14 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-function HomeScreen() {
+function ProfileScreen() {
   return (
     <View>
         <Text>
-            HomeScreen
+            ProfileScreen
         </Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default ProfileScreen

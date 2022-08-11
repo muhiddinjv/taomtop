@@ -1,14 +1,14 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-function HomeScreen() {
+function NotVerifyScreen() {
   return (
     <View>
         <Text>
-            HomeScreen
+            NotVerifyScreen
         </Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default NotVerifyScreen

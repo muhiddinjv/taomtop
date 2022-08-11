@@ -1,14 +1,14 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-function HomeScreen() {
+function ShippingScreen() {
   return (
     <View>
         <Text>
-            HomeScreen
+            ShippingScreen
         </Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default ShippingScreen

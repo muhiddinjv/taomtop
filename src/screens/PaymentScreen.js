@@ -1,14 +1,14 @@
 import React from 'react'
 import { Text, View } from 'react-native'
 
-function HomeScreen() {
+function PaymentScreen() {
   return (
     <View>
         <Text>
-            HomeScreen
+            PaymentScreen
         </Text>
     </View>
   )
 }
 
-export default HomeScreen
+export default PaymentScreen
