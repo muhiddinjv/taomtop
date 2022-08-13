@@ -1,13 +1,16 @@
+import { Box, Center, Text } from 'native-base'
+import Colors from '../color';
 import React from 'react'
-import { Text, View } from 'react-native'
 
 function CartScreen() {
   return (
-    <View>
-        <Text>
-            CartScreen
-        </Text>
-    </View>
+    <Box flex={1} safeAreaTop bg={Colors.subGreen}>
+      <Center w='full' py={5}>
+        <Text
+          color={Colors.black} fontSize={20} bold
+        >Cart</Text>
+      </Center>
+    </Box>
   )
 }
 
