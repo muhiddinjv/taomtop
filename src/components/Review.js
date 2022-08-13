@@ -14,11 +14,11 @@ const Review = () => {
         REVIEW
       </Heading>
       {/* IF THERE IS NO REVIEW */}
-      <Message 
+      {/* <Message 
         color={Colors.main}
         bg={Colors.deepGray}
         children={"NO REVIEW"}
-      />
+      /> */}
       {/* REVIEW */}
       <Box p={3} bg={Colors.deepGray} mt={5} rounded={5}>
         <Heading fontSize={15} color={Colors.black}>
@@ -37,7 +37,7 @@ const Review = () => {
       </Box>
 
       {/* WRITE REVIEW */}
-      <Box mt={6}>
+      {/* <Box mt={6}>
           <Heading fontSize={15} bold mb={4}>
             REVIEW THIS PRODUCT
           </Heading>
@@ -93,13 +93,12 @@ const Review = () => {
             <Buttone bg={Colors.main} color={Colors.white}>
               SUBMIT
             </Buttone>
-            {/* IF NOT LOGGED IN */}
             <Message 
               color={Colors.white}
               bg={Colors.black}
               children={"Please 'Login' to write a review"}/>
           </VStack>
-      </Box>
+      </Box> */}
     </Box>
   )
 }
