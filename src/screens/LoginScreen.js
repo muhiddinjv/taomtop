@@ -1,8 +1,7 @@
 import { Box, Button, Heading, Image, Input, Text, VStack } from 'native-base'
 import React from 'react'
 import Colors from '../color'
-import { MaterialIcons } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
+import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
 
 function LoginScreen() {
