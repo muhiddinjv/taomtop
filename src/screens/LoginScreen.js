@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Image, Input, Text, View, VStack } from 'native-base'
+import { Box, Button, Heading, Image, Input, Text, VStack } from 'native-base'
 import React from 'react'
 import Colors from '../color'
 import { MaterialIcons } from '@expo/vector-icons';
@@ -39,7 +39,7 @@ function LoginScreen() {
         <Button _pressed={{bg: 'lightgreen'}}
         my={30} w='40%' rounded={50} bg={Colors.main} >LOGIN</Button>
         <Pressable>
-          <Text color={Colors.deepestGray}>asdf</Text>
+          <Text color={Colors.deepestGray}>SIGN UP</Text>
         </Pressable>
       </Box>
     </Box>
