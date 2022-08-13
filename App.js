@@ -1,12 +1,10 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
-import NotVerifyScreen from './src/screens/NotVerifyScreen';
+import HomeScreen from './src/screens/HomeScreen';
 import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <NotVerifyScreen />
+      <HomeScreen />
     </NativeBaseProvider>
   );
 }

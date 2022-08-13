@@ -1,13 +1,15 @@
+import { Box } from 'native-base'
 import React from 'react'
-import { Text, View } from 'react-native'
+import Colors from '../color'
+import HomeProducts from '../components/HomeProducts'
+import HomeSearch from '../components/HomeSearch'
 
 function HomeScreen() {
   return (
-    <View>
-        <Text>
-            HomeScreen
-        </Text>
-    </View>
+    <Box flex={1} bg={Colors.subGreen}>
+      <HomeSearch />
+      <HomeProducts />
+    </Box>
   )
 }
 

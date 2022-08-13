@@ -14,7 +14,7 @@ const Buttone = ({mt, bg, color, children, onPress}) => {
             fontWeight:'bold'
         }}
         _pressed={{bg: bg}}
-        onPress={{onPress}}
+        onPress={onPress}
         >{children}</Button>
   )
 }
