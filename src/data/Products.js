@@ -11,7 +11,7 @@ const products = [
         size:"7 inches in diameter",
         price:42.95,
         stock:5,
-        image: require("../../assets/images/1-2-birthday-cake-picture-thumb.png")
+        image: require("../../assets/food/1-2-birthday-cake-picture-thumb.png")
      },{
         key: 1,
         _id:"ebed34eb-7533-49f5-91cb-37c12f20d4b1",
@@ -24,7 +24,7 @@ const products = [
         size:"7 inches in diameter",
         price:39.95,
         stock:2,
-        image:require("../../assets/images/1-2-coffee-beans-free-png-image-thumb.png")
+        image:require("../../assets/food/1-2-coffee-beans-free-png-image-thumb.png")
      },{
         key: 2,
         _id:"fb79562d-e470-4445-990b-06aa875d3e97",
@@ -37,7 +37,7 @@ const products = [
         size:"6.5 oz can",
         price:3.19,
         stock:7,
-        image:require("../../assets/images/1-2-food-free-png-image-thumb.png")
+        image:require("../../assets/food/1-2-food-free-png-image-thumb.png")
      },{
         key: 3,
         _id:"61c79187-76f6-4747-a5cf-d7e26dcea535",
@@ -50,7 +50,7 @@ const products = [
         size:"7 inches in diameter",
         price:42.95,
         stock:4,
-        image:require("../../assets/images/1-2-hot-dog-png-file-thumb.png")
+        image:require("../../assets/food/1-2-hot-dog-png-file-thumb.png")
      },{
         key: 4,
         _id:"b72f5d8e-e586-47cd-aba7-202814ca6609",
@@ -63,7 +63,7 @@ const products = [
         size:"64 oz ctn",
         price:5.19,
         stock:2,
-        image:require("../../assets/images/1-coca-cola-can-png-image-thumb.png")
+        image:require("../../assets/food/1-coca-cola-can-png-image-thumb.png")
      },{
         key: 5,
         _id:"5ffd3e0b-2a31-4d97-aced-e242b5061b24",
@@ -76,7 +76,7 @@ const products = [
         size:"12ct",
         price:20.99,
         stock:3,
-        image:require("../../assets/images/1-pizza-png-image-thumb.png")
+        image:require("../../assets/food/1-pizza-png-image-thumb.png")
      },{
         key: 6,
         _id:"b7399b85-6860-4b86-b169-3dc068d444ae",
@@ -89,7 +89,7 @@ const products = [
         size:"5.3 oz cup",
         price:1.95,
         stock:1,
-        image:require("../../assets/images/12-2-drink-png-5-thumb.png")
+        image:require("../../assets/food/12-2-drink-png-5-thumb.png")
      },{
         key: 7,
         _id:"c8d5c1c3-15e8-4112-a043-a0d33a8de28d",
@@ -102,7 +102,7 @@ const products = [
         size:"36ct",
         price:28.99,
         stock:1,
-        image:require("../../assets/images/15-egg-png-image-thumb.png")
+        image:require("../../assets/food/15-egg-png-image-thumb.png")
      },{
         key: 8,
         _id:"74835a8d-b17b-4653-b1b1-fc58b4df19b9",
@@ -115,7 +115,7 @@ const products = [
         size:"5.3 oz cup",
         price:2.09,
         stock:1,
-        image:require("../../assets/images/16-egg-png-image-thumb.png")
+        image:require("../../assets/food/16-egg-png-image-thumb.png")
      },{
         key: 9,
         _id:"92de4c84-2f09-43c3-88e2-c0a000b93037",
@@ -128,7 +128,7 @@ const products = [
         size:"32 pieces",
         price:39.95,
         stock:2,
-        image:require("../../assets/images/2-2-burger-free-download-png-thumb.png")
+        image:require("../../assets/food/2-2-burger-free-download-png-thumb.png")
      },{
         key: 10,
         _id:"df52c530-a741-4eb7-9558-d2faaacec380",
@@ -141,7 +141,7 @@ const products = [
         size:"Large",
         price:59.99,
         stock:6,
-        image:require("../../assets/images/2-2-sweets-free-download-png-thumb.png")
+        image:require("../../assets/food/2-2-sweets-free-download-png-thumb.png")
      },{
         key: 11,
         _id:"334d5358-3cdf-473b-b894-5115b0df7c6f",
@@ -154,7 +154,7 @@ const products = [
         size:"Set of 15",
         price:34.95,
         stock:8,
-        image:require("../../assets/images/2-pepsi-can-png-image-thumb.png")
+        image:require("../../assets/food/2-pepsi-can-png-image-thumb.png")
      },{
         key: 12,
         _id:"f3b3a260-f7e4-45c8-86b2-d6f48a1024d1",
@@ -167,7 +167,7 @@ const products = [
         size:"5.3 oz cup",
         price:1.92,
         stock:1,
-        image:require("../../assets/images/2-pizza-png-image-thumb.png")
+        image:require("../../assets/food/2-pizza-png-image-thumb.png")
      },{
         key: 13,
         _id:"f82c6b8a-2c6a-45e2-887f-ad5f34631439",
@@ -180,7 +180,7 @@ const products = [
         size:"5.6 oz box",
         price:1,
         stock:12,
-        image:require("../../assets/images/27428-5-nike-shoes-transparent-background-thumb.png")
+        image:require("../../assets/food/27428-5-nike-shoes-transparent-background-thumb.png")
      },{
         key: 14,
         _id:"7b862543-876f-4bac-b56a-630f6e239079",
@@ -193,7 +193,7 @@ const products = [
         size:"35.3 oz can",
         price:6.99,
         stock:1,
-        image:require("../../assets/images/3-2-coffee-png-file-thumb.png")
+        image:require("../../assets/food/3-2-coffee-png-file-thumb.png")
      },{
         key: 15,
         _id:"b971e50a-8a61-4c0c-b5ab-94289dabcf92",
@@ -206,7 +206,7 @@ const products = [
         size:"32 oz ctn",
         price:2.02,
         stock:1,
-        image:require("../../assets/images/3-ice-cream-png-image-thumb.png")
+        image:require("../../assets/food/3-ice-cream-png-image-thumb.png")
      },{
         key: 16,
         _id:"4a8913f9-29a1-40e0-81bc-c37b564e0b5d",
@@ -219,7 +219,7 @@ const products = [
         size:"4.4 oz box",
         price:2.39,
         stock:5,
-        image:require("../../assets/images/3-pint-beer-png-image-thumb.png")
+        image:require("../../assets/food/3-pint-beer-png-image-thumb.png")
      },{
         key: 17,
         _id:"cc1f83c1-70cd-4d7e-b204-ec79011ffa8d",
@@ -232,7 +232,7 @@ const products = [
         size:"4 ct",
         price:7.49,
         stock:1,
-        image:require("../../assets/images/4-2-juice-png-clipart-thumb.png")
+        image:require("../../assets/food/4-2-juice-png-clipart-thumb.png")
      },{
         key: 18,
         _id:"5d3611cb-2140-4984-8535-0e40920fbd68",
@@ -245,7 +245,7 @@ const products = [
         size:"10 ct",
         price:3.32,
         stock:1,
-        image:require("../../assets/images/4-ice-cream-png-image-thumb.png")
+        image:require("../../assets/food/4-ice-cream-png-image-thumb.png")
      },{
         key: 19,
         _id:"55a25e37-f9b1-4d63-b088-4c461f675009",
@@ -258,7 +258,7 @@ const products = [
         size:"40 pcs",
         price:4.99,
         stock:6,
-        image:require("../../assets/images/4-pepsi-can-png-image-thumb.png")
+        image:require("../../assets/food/4-pepsi-can-png-image-thumb.png")
      }
 ]
 
