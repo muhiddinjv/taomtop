@@ -28,8 +28,8 @@ const Tabs = () => {
             {...props}
             tabStyle={styles.tabStyle}
             indicatorStyle={{backgroundColor:Colors.blue}}
-            activeColor={Colors.main}
-            inactiveColor={Colors.white}
+            activeColor={Colors.white}
+            inactiveColor={Colors.main}
             renderLabel={({route, color})=> (
                 <Text style={{color, ...styles.text}}>{route.title}</Text>
             )}

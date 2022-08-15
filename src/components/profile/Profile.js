@@ -2,6 +2,7 @@ import { View, Text } from 'react-native'
 import React from 'react'
 import { Box, FormControl, Input, ScrollView, VStack } from 'native-base'
 import Colors from '../../color'
+import Buttone from '../Buttone'
 
 const Inputs = [
   {
@@ -12,7 +13,10 @@ const Inputs = [
     type:'text'
   },{
     label:'PASSWORD',
-    type:''
+    type:'password'
+  },{
+    label:'CONFIRM PASSWORD',
+    type:'password'
   }
 ]
 
@@ -33,18 +37,20 @@ export default function Profile() {
               </FormControl.Label>
               <Input 
                 type={i.type}
-                borderWidth={0}
+                // borderWidth={1}
                 bg={Colors.subGreen}
+                borderColor={Colors.main}
                 color={Colors.main}
                 fontSize={15}
                 _focus={{
                   bg:Colors.subGreen,
-                  borderColor:Colors.main,
-                  borderWidth:1,
                 }}
               />
             </FormControl> 
           ))}
+          <Buttone bg={Colors.main} color={Colors.white}>
+            UPDATE PROFILE
+          </Buttone>
         </VStack>
       </ScrollView>
     </Box>
