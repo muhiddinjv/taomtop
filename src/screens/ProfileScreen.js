@@ -1,13 +1,13 @@
+import { Center } from 'native-base'
 import React from 'react'
-import { Text, View } from 'react-native'
 
 function ProfileScreen() {
   return (
-    <View>
-        <Text>
+    <>
+        <Center>
             ProfileScreen
-        </Text>
-    </View>
+        </Center>
+    </>
   )
 }
 
