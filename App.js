@@ -1,10 +1,10 @@
-import ProfileScreen from './src/screens/ProfileScreen';
+import ShippingScreen from './src/screens/ShippingScreen';
 import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <ProfileScreen />
+      <ShippingScreen />
     </NativeBaseProvider>
   );
 }
