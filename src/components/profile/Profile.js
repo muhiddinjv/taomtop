@@ -37,13 +37,15 @@ export default function Profile() {
               </FormControl.Label>
               <Input 
                 type={i.type}
-                // borderWidth={1}
+                borderWidth={0.3}
                 bg={Colors.subGreen}
                 borderColor={Colors.main}
                 color={Colors.main}
                 fontSize={15}
                 _focus={{
                   bg:Colors.subGreen,
+                  borderWidth:1,
+                  borderColor:Colors.main
                 }}
               />
             </FormControl> 
