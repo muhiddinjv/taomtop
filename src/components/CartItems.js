@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { Box, Text, Pressable, Icon, HStack, Center, Image, VStack } from 'native-base';
+import { Box, Text, Pressable, Icon, HStack, Center, Image, VStack, Button } from 'native-base';
 import { SwipeListView } from 'react-native-swipe-list-view';
 import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import products from '../data/Products';
 import Colors from '../color';
 
-export default function Basic() {
+export default function SwipeList() {
   const [listData, setListData ] = useState(products)
 
   const closeRow = (rowMap, rowKey) => {
@@ -46,16 +46,23 @@ export default function Basic() {
                 source={item.image}
                 alt={item.title}
                 w='full'
-                h={12}
+                h={24}
                 resizeMode='contain'
               />
             </Center>
             <VStack  px={2} space={2}>
-              <Text color={Colors.black} fontSize={10} w={260} isTruncated>
+              <Text color={Colors.black} fontSize={10} w={220} isTruncated>
                   {item.title}
               </Text>
               <Text>${item.price}</Text>
             </VStack>
+            <Center>
+              <Button
+                bg={Colors.main}
+                _pressed={{bg: Colors.main}}
+                _text={{color: Colors.white}}
+              >5</Button>
+            </Center>
           </HStack>
         </Box>
       </Pressable>
@@ -76,6 +83,7 @@ export default function Basic() {
 
   return <Box flex={1} px={2}>
     <SwipeListView data={listData} 
+        showsVerticalScrollIndicator={false}
         renderItem={renderItem} 
         renderHiddenItem={renderHiddenItem} 
         rightOpenValue={-100} 
