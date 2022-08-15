@@ -1,10 +1,10 @@
-import ShippingScreen from './src/screens/ShippingScreen';
+import PaymentScreen from './src/screens/PaymentScreen';
 import { NativeBaseProvider } from 'native-base';
 
 export default function App() {
   return (
     <NativeBaseProvider>
-      <ShippingScreen />
+      <PaymentScreen />
     </NativeBaseProvider>
   );
 }
