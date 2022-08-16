@@ -4,7 +4,7 @@ import { MaterialIcons, FontAwesome, Ionicons } from '@expo/vector-icons';
 import React from 'react';
 import Colors from '../color'
 
-function RegisterScreen() {
+function RegisterScreen({navigation}) {
   return (
     <Box flex={1}>
       <Image flex={1}  alt="Logo" style={{ width: '100%', height: 200 }} source={require("../../assets/cover.png")}/>
@@ -47,9 +47,10 @@ function RegisterScreen() {
           />
         </VStack>
         <Button _pressed={{bg: 'lightgreen'}}
+        onPress={()=> navigation.navigate('Bottom')}
         my={30} w='40%' rounded={50} bg={Colors.main} >SIGN UP</Button>
         <Pressable>
-          <Text color={Colors.deepestGray}>LOGIN</Text>
+          <Text color={Colors.deepestGray} onPress={()=> navigation.navigate('Login')}>LOGIN</Text>
         </Pressable>
       </Box>
     </Box>

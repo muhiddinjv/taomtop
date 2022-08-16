@@ -4,7 +4,7 @@ import Colors from '../color'
 import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import Pressable from 'react-native/Libraries/Components/Pressable/Pressable';
 
-function LoginScreen() {
+function LoginScreen({navigation}) {
   return (
     <Box flex={1}>
       <Image flex={1}  alt="Logo" style={{ width: '100%', height: 200 }} source={require("../../assets/cover.png")}/>
@@ -35,9 +35,15 @@ function LoginScreen() {
             borderBottomColor={Colors.underline}
           />
         </VStack>
-        <Button _pressed={{bg: 'lightgreen'}}
-        my={30} w='40%' rounded={50} bg={Colors.main} >LOGIN</Button>
-        <Pressable>
+        <Button 
+        _pressed={{bg: 'lightgreen'}}
+        my={30} w='40%' rounded={50} 
+        bg={Colors.main}
+        onPress={()=> navigation.navigate('Bottom')}
+        >
+          LOGIN
+        </Button>
+        <Pressable onPress={()=> navigation.navigate('Register')}>
           <Text color={Colors.deepestGray}>SIGN UP</Text>
         </Pressable>
       </Box>
