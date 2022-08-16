@@ -88,7 +88,7 @@ const products = [
         mfdDate:"05/15/2017",
         size:"5.3 oz cup",
         price:1.95,
-        stock:1,
+        stock:0,
         image:require("../../assets/food/12-2-drink-png-5-thumb.png")
      },{
         key: 7,
@@ -166,7 +166,7 @@ const products = [
         mfdDate:"05/15/2017",
         size:"5.3 oz cup",
         price:1.92,
-        stock:1,
+        stock:0,
         image:require("../../assets/food/2-pizza-png-image-thumb.png")
      },{
         key: 13,
@@ -244,7 +244,7 @@ const products = [
         mfdDate:"08/14/2017",
         size:"10 ct",
         price:3.32,
-        stock:1,
+        stock:0,
         image:require("../../assets/food/4-ice-cream-png-image-thumb.png")
      },{
         key: 19,

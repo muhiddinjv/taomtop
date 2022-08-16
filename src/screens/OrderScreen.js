@@ -3,10 +3,10 @@ import React from 'react'
 import Colors from '../color'
 import OrderInfo from '../components/OrderInfo'
 import OrderItem from '../components/OrderItem'
-import PlaceOrderModel from '../components/PlaceOrderModel'
-import { FontAwesome, FontAwesome5, Ionicons } from '@expo/vector-icons';
+import OrderModel from '../components/OrderModel'
+import { FontAwesome5, Ionicons } from '@expo/vector-icons';
 
-function PlaceOrderScreen() {
+function OrderScreen() {
   return (
     <Box bg={Colors.subGreen} flex={1} safeArea pt={6}>
       <Box>
@@ -15,18 +15,14 @@ function PlaceOrderScreen() {
           showsHorizontalScrollIndicator={false}
         >
           <OrderInfo
-            title='CUSTOMER'
-            subTitle='Admin'
-            text='admin@example.com'
-            icon={<FontAwesome name='user' size={30} color={Colors.white}/>}
-          />
-          <OrderInfo
-            title='ORDER INFO'
+            success
+            title='SHIPPING INFO'
             subTitle='Shipping: Tanzania'
             text='Payment Method: PayPal'
             icon={<FontAwesome5 name='shipping-fast' size={30} color={Colors.white}/>}
           />
           <OrderInfo
+            danger
             title='DELIVER TO'
             subTitle='Address:'
             text='Aruza Tz, Ngaramtoni Crater'
@@ -39,10 +35,10 @@ function PlaceOrderScreen() {
         <Heading bold fontSize={15} isTruncated my={4}>PRODUCTS</Heading>
         <OrderItem />
         {/* Total */}
-        <PlaceOrderModel />
+        <OrderModel />
       </Box>
     </Box>
   )
 }
 
-export default PlaceOrderScreen;
+export default OrderScreen;
