@@ -3,7 +3,7 @@ import React from 'react'
 import Colors from '../color'
 import OrderInfo from '../components/OrderInfo'
 import OrderItem from '../components/OrderItem'
-import PlaceOrderModel from '../components/PlaceOrderModel'
+import OrderModel from '../components/OrderModel'
 import { FontAwesome, FontAwesome5, Ionicons } from '@expo/vector-icons';
 
 function OrderScreen() {
@@ -21,15 +21,17 @@ function OrderScreen() {
             icon={<FontAwesome name='user' size={30} color={Colors.white}/>}
           />
           <OrderInfo
+            success
             title='ORDER INFO'
             subTitle='Shipping: Tanzania'
             text='Payment Method: PayPal'
             icon={<FontAwesome5 name='shipping-fast' size={30} color={Colors.white}/>}
           />
           <OrderInfo
+            danger
             title='DELIVER TO'
             subTitle='Address:'
-            text='Aruza Tz, Ngaramtoni Crater, P.O Box 1234'
+            text='Aruza Tz, Ngaramtoni Crater'
             icon={<Ionicons name='location-sharp' size={30} color={Colors.white}/>}
           />
         </ScrollView>
@@ -39,7 +41,7 @@ function OrderScreen() {
         <Heading bold fontSize={15} isTruncated my={4}>PRODUCTS</Heading>
         <OrderItem />
         {/* Total */}
-        <PlaceOrderModel />
+        <OrderModel />
       </Box>
     </Box>
   )
