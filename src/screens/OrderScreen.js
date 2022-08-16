@@ -6,7 +6,7 @@ import OrderItem from '../components/OrderItem'
 import PlaceOrderModel from '../components/PlaceOrderModel'
 import { FontAwesome, FontAwesome5, Ionicons } from '@expo/vector-icons';
 
-function PlaceOrderScreen() {
+function OrderScreen() {
   return (
     <Box bg={Colors.subGreen} flex={1} safeArea pt={6}>
       <Box>
@@ -45,4 +45,4 @@ function PlaceOrderScreen() {
   )
 }
 
-export default PlaceOrderScreen
+export default OrderScreen
